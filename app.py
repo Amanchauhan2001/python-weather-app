@@ -25,7 +25,7 @@ def index():
                 'wind': data['current']['wind_kph']
             }
         else:
-            weather_data = {'error': 'City not found or API issue'}
+            weather_data = {'error': 'City not foundss or API issue'}
     return render_template('index.html', weather=weather_data)
 
 if __name__ == '__main__':
