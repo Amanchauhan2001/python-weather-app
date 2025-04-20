@@ -1,0 +1,19 @@
+# Ignore Python virtual environment
+venv/
+
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Ignore environment variables
+
+
+# Ignore log files
+*.log
+
+# Ignore IDE/editor folders
+.vscode/
+.idea/
+
+# Ignore macOS system files
+.DS_Store
